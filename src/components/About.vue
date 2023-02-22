@@ -1,5 +1,5 @@
 <template>
-  <section class="section-about">
+  <section id="about" class="section-about">
     <div class="text-center mb-20">
       <h2 class="heading-secondary">About Ordinal Camels</h2>
     </div>
@@ -9,7 +9,7 @@
         src="../assets/camel-nft.png"
         alt="camel"
       />
-      <div class="mb-[10rem]" v-for="item in faq" :key="item.question">
+      <div class="faq mb-[10rem]" v-for="item in faq" :key="item.question">
         <h3 class="heading-tertiary mb-5">
           {{ item.question }}
         </h3>

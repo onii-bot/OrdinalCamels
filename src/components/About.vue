@@ -37,6 +37,10 @@ export default {
           answer: "125 Camels",
         },
         {
+          question: "Whats the Inscription range?",
+          answer: "Inscription #147804-160038",
+        },
+        {
           question: "Why a collection on Bitcoin?",
           answer:
             "Ordinals are stored fully on-chain. Your Camel is permanently stored on the most secure blockchain.",

@@ -263,8 +263,8 @@ body {
   transform: translateY(-2px);
 }
 
-.email {
+.copyright {
   font-size: 1.8rem;
   position: absolute;
-  left: 0%;
+  left: 30%;
 }
